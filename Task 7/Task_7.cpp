@@ -5,7 +5,7 @@ int main()
 {
 	int n;
 	int e;
-	cout << "Enter a number to first count up to and then down from: ";
+	cout << "Enter a natural number to first count up to and then down from: ";
 	cin >> n;
 
 	e = n;

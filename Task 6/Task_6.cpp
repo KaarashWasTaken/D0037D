@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n;
-    int c = 0;
+    int c = 1;
     int i;
     int m = 2;
     int prim = 0;
