@@ -1,0 +1,3 @@
+I learned how to do a do-while loop and how to use scanf_s, most of the other stuff I already knew.
+
+The most difficult thing was to get scanf_s t work, I overcame it by looking up others code on how they used it and by trying it until it worked as I wanted it to.
