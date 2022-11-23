@@ -15,7 +15,7 @@ int main()
 	
 
 	string gend;
-	cout << endl << "What is your sex?: ";
+	cout << endl << "What is your gender?: ";
 	cin >> gend;
 	
 
