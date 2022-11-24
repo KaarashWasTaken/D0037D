@@ -19,10 +19,10 @@ int main()
 
     else {
         
-        while (c <= n)
+        while (c <= n) //A while-loop that will continue to loop as long as "c" is below or equal to "n"
         {
             prim = 0;
-            for (i = 2; i <= m/2; i++)
+            for (i = 2; i <= m/2; i++) //For-loop that checks if a number is a prime number if it is not it will increase the number by one and check again
             {
                 if (m % i == 0)
                 {
@@ -32,7 +32,7 @@ int main()
                 }
 
             }
-            if(prim == 0)
+            if(prim == 0) //If a prime number is found "c" will increase by one
             {
                 c++;
                 cout << m << endl;

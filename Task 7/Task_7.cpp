@@ -9,18 +9,18 @@ int main()
 	cin >> n;
 
 	e = n;
-	if (n < 0) {
+	if (n < 0) { //If the given number is negative the message below will be printed out
 		cout << endl << "Error! Invalid inuput: Negative number" << endl;
 	}
 
-	while(n >= 0)
+	while(n >= 0) //First loop makes it count down to 0
 	{
 		cout << n;
 		n--;
 
 	}
 
-	for (n = 1; n <= e; n++) {
+	for (n = 1; n <= e; n++) { //The for-loop makes it count up starting with 1
 
 		cout << n;
 
